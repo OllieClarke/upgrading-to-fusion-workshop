@@ -5,7 +5,7 @@ sources:
     description: "Raw data from the jaffle shop application, loaded as seeds"
     database: SNOWFLAKE_LEARNING_DB
     schema: JAFFLE_SHOP
-    
+
     tables:
       - name: raw_customers
         description: "Raw customer data"
@@ -98,6 +98,6 @@ sources:
           - name: perishable
             description: "Whether the supply is perishable"
 
-  - name: unused_source
-    database: RAW
-    schema: UPGRADING_TO_FUSION
+  # - name: unused_source
+  #   database: RAW
+  #   schema: UPGRADING_TO_FUSION
